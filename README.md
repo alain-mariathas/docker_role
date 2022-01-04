@@ -9,6 +9,7 @@ This role installs docker and docker_container ansible module.
 
 Example playbook
 
+```yml
 - hosts: prod
   become: true
   roles:
@@ -21,3 +22,4 @@ Example playbook
         image: nginx
         ports:
           - "80:80"
+```
