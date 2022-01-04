@@ -1,7 +1,9 @@
+---
 galaxy_info:
-  author: your name
-  description: your role description
-  company: your company (optional)
+  role_name: docker_role
+  author: Alain
+  description: Ansible docker role pour centos ou ubuntu
+  company: Alain
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
